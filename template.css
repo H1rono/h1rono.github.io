@@ -56,8 +56,6 @@ header > h1 {
 #header-menu-button.open > span::after  { bottom: 0px; transform: rotate(-45deg); }
 
 #header-menu-content {
-    margin: 0;
-    padding: 70px 0px;
     position: fixed;
     top: 0px;
     left: 100%;
@@ -70,6 +68,10 @@ header > h1 {
 
 #header-menu-button.open ~ #header-menu-content {
     left: 0%;
+}
+
+#header-menu-content ul {
+    padding: 70px 10px;
 }
 
 #header-menu-content ul li {

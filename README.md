@@ -1,2 +1,2 @@
 # h1rono.github.io
-My portfolio repository
+Now preparing...

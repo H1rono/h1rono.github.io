@@ -10,30 +10,34 @@
     <link rel="icon" href="./favicons/favicon.ico" type="image/x-icon" />
     <!-- タイトル ブラウザのタブに出るやつ -->
     <title>Home - H1rono Portfolio</title>
-    <!-- テンプレのCSS、JavaScript -->
+    <!-- テンプレのCSS -->
     <link rel="stylesheet" href="./template.css" type="text/css" />
+    <!-- テンプレのJavaScript -->
     <script src="./template.js" type="text/javascript"></script>
     <script type="text/javascript">
         window.addEventListener("load", template.onload);
     </script>
 </head>
 <body>
+
     <header>
-        <h1>h1rono.github.io</h1>
+        <h1 id="site-title">h1rono.github.io</h1>
         <div id="header-menu">
-            <label id="header-menu-button" class="transable"><span></span></label>
-            <div id="header-menu-content" class="transable">
+            <label id="header-menu-button"><span></span></label>
+            <nav id="header-menu-content">
                 <ul>
                     <li><a href="https://github.com/h1rono">GitHub</a></li>
                     <li><a href="https://qiita.com/H1rono_K">Qiita</a></li>
                     <li><a href="https://twitter.com/H1rono_K">Twitter</a></li>
                 </ul>
-            </div> <!-- #header-menu-content -->
+            </nav> <!-- #header-menu-content -->
         </div> <!-- #header-menu -->
     </header>
+
     <main>
         <h1>H1rono Portfolio</h1>
         <p>現在開発中です。<br /><a href="https://h1rono/h1rono.github.io">リポジトリを見る</a></p>
     </main>
+
 </body>
 </html>

@@ -1,3 +1,4 @@
+//! テンプレートHTML用のJavaScript
 const template = /* 即時呼び出し */(function () {
     //! returnで返すオブジェクト
     let tmp = {};
@@ -9,7 +10,7 @@ const template = /* 即時呼び出し */(function () {
     tmp.setupHeaderMenu = function () {
         // ハンバーガーメニューの開閉処理
         document.querySelector("#header-menu-button").addEventListener("click", function() {
-            this.classList.toggle("open");
+            document.body.classList.toggle("header-menu-open");
         });
     };
 

@@ -16,11 +16,12 @@ const template = /* 即時呼び出し */(function () {
 
     /**
      * @brief load時に呼ぶ関数
-     * @note テンプレートを使う場合はwindow.addEventListener("load", template.onload);
      */
     tmp.onload = function () {
         tmp.setupHeaderMenu();
     };
+
+    window.addEventListener("load", tmp.onload);
 
     return tmp;
 })();

@@ -147,14 +147,12 @@ body.header-menu-open #header-menu-content {
 
 #aside-left {
     width: 30rem;
-    height: 100vh;
-    background-color: turquoise;
+    background-color: whitesmoke;
 }
 
 #aside-right {
     width: 30rem;
-    height: 100vh;
-    background-color: blueviolet;
+    background-color: whitesmoke;
     order: 2;
 }
 

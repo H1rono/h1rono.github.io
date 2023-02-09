@@ -172,3 +172,12 @@ body.header-menu-open #header-menu-content {
         overflow: hidden;
     }
 }
+
+#page-footer {
+    background-color: black;
+    color: white;
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -137,7 +137,7 @@ body.header-menu-open #header-menu-content {
 #page-main {
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
+    padding: 1rem 0;
     height: 100%;
 }
 
